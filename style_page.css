@@ -1,0 +1,54 @@
+p {
+	margin: 0 0 1.75em;
+}
+
+body {
+  background-color: #ccd7c9;
+
+  color: #1a1a1a;
+  font-family: Merriweather, Georgia, serif;
+  font-size: 1rem;
+}
+#page {
+  margin : 21px;
+  background-color: #edede3;
+}
+
+.site-inner{
+  width: auto;
+  /* border: 1px solid black; */
+
+  max-width: 1320px;
+  position: relative;
+  margin: 0 auto;
+
+  color: #1a1a1a;
+  line-height: 1.75;
+  font-size: 1rem;
+  font-family: Merriweather, "Helvtica Neue", sans-serif;
+}
+
+.cursor_focus:hover{
+  color: #007acc;
+  transition: 0.2s;
+  outline: 0;
+}
+
+#HelloWorld{
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin : 0px;
+    padding : 0px;
+    /* border: 1px solid black; */
+    width: auto;
+
+    /* transition: 0.5s; */
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

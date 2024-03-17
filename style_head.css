@@ -1,0 +1,140 @@
+.site_header{
+  /* padding-top: 84px;
+  padding-bottom: 84px;
+  padding-left: 60px;
+  padding-right: 60px; */
+  padding: 5.25em 4.5455%
+
+}
+
+.site_header_main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+
+.site_branding{
+  margin: 0.875rem auto 0.875rem 0;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+#head_name{
+  font-size: 1.75rem;
+  font-weight: bold;
+
+  line-height: 1.25;
+
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  margin:0
+}
+
+#head_sub{
+  color: #686868;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  
+  line-height: 1.0769230769;
+  margin: 0.538461538em 0 0;
+}
+
+/* #head_menu{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+.site_head_menu{
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+  display: block;
+  flex: 0 1 auto;
+
+  margin : 1.3125em 0;
+}
+
+.primary-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  /* display: block; */
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+
+.main_navigation {
+  margin: 0 -0.875em;
+
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+
+  border: 0;
+
+}
+
+
+.main_navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 56.875em) {
+  
+}
+
+.main_navigation li{
+  position: relative;
+}
+
+.primary-menu > li {
+  float: left;
+}
+
+li {
+  display: list-item;
+  /* text-align: match-parent; */
+}
+
+.current-menu-item > a {
+  font-weight: 700;;
+}
+
+.main-navigation a{
+  outline-offset: -8px;
+  padding: 0.65625em 0.875em;
+  white-space: nowrap;
+
+  color: #1a1a1a;
+  display: block;
+  line-height: 1.3125;
+
+  text-decoration: none;
+}
+
+a:any-link{
+  cursor: auto;
+}
